@@ -33,3 +33,11 @@ const Secrets = require('secrets');
 
 const secret = new Secrets(32, true, true).generate();
 ```
+
+### In browser
+
+Import the file `./dist/secrets.min.js`.
+
+eg. `<script src="secrets.min.js"></script>`
+
+Then in your javascript code use: `const secret = new Secrets(64, true, true).generate();`.
