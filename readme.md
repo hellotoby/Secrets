@@ -4,7 +4,7 @@ Secrets is a tiny 2kb library for generating secure passwords.
 
 ## Installation
 
-`yarn add secrets`
+`yarn add @hellotoby/secrets`
 
 ## Usage
 
@@ -21,7 +21,7 @@ Defaults to: `new Secrets(32, true, true);`
 ### ES6
 
 ```
-import Secrets from 'secrets';
+import Secrets from '@hellotoby/secrets';
 
 const secret = new Secrets(32, true, true).generate();
 ```
@@ -29,7 +29,7 @@ const secret = new Secrets(32, true, true).generate();
 ### ES5
 
 ```
-const Secrets = require('secrets');
+const Secrets = require('@hellotoby/secrets');
 
 const secret = new Secrets(32, true, true).generate();
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "Secrets",
+  "name": "@hellotoby/secrets",
   "version": "1.0.0",
   "main": "dist/secrets.js",
   "license": "MIT",
@@ -9,6 +9,7 @@
       "type" : "git",
       "url" : "https://github.com/hellotoby/Secrets.git"
   },
+  "version": "1.0.0",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
