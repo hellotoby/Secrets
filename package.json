@@ -25,6 +25,6 @@
   "scripts": {
     "build": "rollup ./src/secrets.js --o ./dist/secrets.js --f umd --name 'Secrets'",
     "build:prod": "rollup -c",
-    "test:es5": "node ./test/es5.test.js",
+    "test:es5": "node ./test/es5.test.js"
   }
 }
