@@ -34,10 +34,14 @@ const Secrets = require('secrets');
 const secret = new Secrets(32, true, true).generate();
 ```
 
-### In browser
+### In the browser
 
 Import the file `./dist/secrets.min.js`.
 
 eg. `<script src="secrets.min.js"></script>`
 
 Then in your javascript code use: `const secret = new Secrets(64, true, true).generate();`.
+
+## Notes
+
+Secrets doesn't have any protection to stop it from generating naughty words. It's possible that something bad might come up in the generated password.
