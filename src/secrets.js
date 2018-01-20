@@ -2,7 +2,7 @@
 export default class Secrets
 {
 
-    constructor(length, numeric = true, special = true) {
+    constructor(length = 32, numeric = true, special = true) {
 
         this.length = length;
         this.numeric = numeric;

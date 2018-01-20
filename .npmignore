@@ -1,5 +1,6 @@
+src
 node_modules
-/build
-/test
+test
+build
 .DS_Store
 yarn-error.log
