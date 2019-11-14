@@ -1,15 +1,14 @@
 {
   "name": "@hellotoby/secrets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/secrets.js",
   "license": "MIT",
   "homepage": "https://github.com/hellotoby/Secrets",
   "author": "Toby Vervaart",
-  "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/hellotoby/Secrets.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellotoby/Secrets.git"
   },
-  "version": "1.0.0",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
